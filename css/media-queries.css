@@ -1,0 +1,28 @@
+nav ul{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h1{
+    flex-grow: 1;
+}
+
+li{
+    display: inline;
+    padding: 0 5px;
+
+}
+
+.hidden-on-desktop{
+    display: none;
+}
+
+
+
+
+
+
