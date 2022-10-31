@@ -1,21 +1,42 @@
-nav ul{
-    list-style: none;
+
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+
+/*}*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+
+    /*align-items: flex-end;*/
 }
 
-body{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+ul{
+
+    list-style: none;
+
 }
-h1{
-    flex-grow: 1;
-}
+
+
 
 li{
     display: inline;
     padding: 0 5px;
 
+
+
+
 }
+
+h1{
+    float:left;
+    width:50%
+}
+
 
 .hidden-on-desktop{
     display: none;
@@ -23,6 +44,32 @@ li{
 
 
 
+.main{
+    width:60%;
+    float: left;
 
+
+
+}
+
+
+
+
+.sub-section{
+    width:40%;
+    float:right;
+}
+
+
+footer{
+    display:none;
+}
+@media screen and (max-width: 937px){
+    img{
+        width: 890px;
+        height: 385px;
+        justify-items: center;
+    }
+}
 
 
